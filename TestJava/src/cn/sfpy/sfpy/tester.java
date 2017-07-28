@@ -20,9 +20,9 @@ public class tester {
         
         session.saveObject(user);
         System.out.println("插入成功！");
-       /* //查找对象
-        TB_SFPY_USER userInfo = (TB_SFPY_USER) session.getObject( "cn.sfpy.pojo.TB_SFPY_USER", 6988);
-        System.out.println("获取到的信息：" + userInfo);*/
+       //查找对象
+        TB_SFPY_USER userInfo = (TB_SFPY_USER) session.getObject( "cn.sfpy.pojo.TB_SFPY_USER", user.createMainIdStr(),  1);
+        System.out.println("获取到的信息：" + userInfo.getUser_name());
  
     }
 }

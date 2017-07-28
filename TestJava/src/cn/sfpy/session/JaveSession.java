@@ -107,7 +107,7 @@ public class JaveSession {
 	     *            ：对象的id
 	     * @return:需要查找的对象
 	     */
-	    public Object getObject(String className, int Id) {
+	    public Object getObject(String className, String mainIdStr, int Id) {
 	        // 得到表名字
 	        String tableName = className.substring(className.lastIndexOf(".") + 1,
 	                className.length());
@@ -119,7 +119,7 @@ public class JaveSession {
 	            e1.printStackTrace();
 	        }
 	        // 拼凑查询sql语句
-	        String sql = "select * from " + tableName + " where Id=" + Id;
+	        String sql = "select * from " + tableName + " where " + mainIdStr + "=" + Id;
 	        System.out.println("查找sql语句：" + sql);
 	        // 获得数据库链接
 	        Connection con = ConnectDBFactory.getDBConnection();

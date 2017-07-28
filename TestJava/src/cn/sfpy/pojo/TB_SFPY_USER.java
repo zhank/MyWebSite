@@ -1,11 +1,12 @@
 package cn.sfpy.pojo;
 
-public class TB_SFPY_USER {
+public class TB_SFPY_USER {t
 
 	private int user_id;
 	private String user_name;
 	private String user_pwd;
 	private String user_phone;
+	
 	public int getUser_id() {
 		return user_id;
 	}
@@ -31,7 +32,7 @@ public class TB_SFPY_USER {
 		this.user_phone = user_phone;
 	}
 	
-	/*public String getMainId() {
-		return user_id+"";
-	}*/
+	public String createMainIdStr() {
+		return "user_id";
+	}
 }
