@@ -21,7 +21,6 @@ import org.slf4j.LoggerFactory;
 
 /**
  * Oracle数据库优化，优化分页查询语句。
- * @author renwei
  * @version 1.0
  * @see IDbOp
  * @since 1.0
