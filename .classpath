@@ -36,6 +36,16 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-web-3.2.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/spring-webmvc-3.2.8.RELEASE.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/ecj-4.4.2.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.15-sources.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-embed-core.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-embed-el.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-embed-jasper.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-embed-logging-juli.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat-embed-logging-log4j.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/tomcat7-embed-websocket.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
